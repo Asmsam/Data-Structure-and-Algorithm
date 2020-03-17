@@ -5,8 +5,8 @@
 0. About List Structure
 
 1. Sort
-   A. Bubble Sort
-   B. Selection Sort
-   C. Quick Sort
-   D. Heap Sort
+   - Bubble Sort
+   - Selection Sort
+   - Quick Sort
+   - Heap Sort
  
