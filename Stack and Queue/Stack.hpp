@@ -3,7 +3,7 @@ using namespace std;
 
 struct Node {
     unsigned char data;
-    struct Node *next;
+    struct Node* next;
 };
 
 class Stack {
