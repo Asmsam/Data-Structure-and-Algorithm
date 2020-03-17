@@ -2,7 +2,7 @@
 using namespace std;
 
 struct Node {
-    char data;
+    unsigned char data;
     struct Node *next;
 };
 
