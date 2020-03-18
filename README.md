@@ -4,7 +4,11 @@
 
 0. About List Structure
 
-1. Sort
+1. Stack and Queue
+   - Stack
+   - Queue
+   
+2. Sort
    - Bubble Sort
    - Selection Sort
    - Quick Sort
