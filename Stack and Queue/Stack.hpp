@@ -7,19 +7,14 @@ struct Node {
 };
 
 class Stack {
-    struct Node* top;
+    struct Node* top = NULL;
 
     public:
-    Stack();
-    void push(char value);
+    void push(unsigned char value);
     void pop();
 };
 
-Stack::Stack() {
-    top == NULL;
-}
-
-void Stack::push(char value) {
+void Stack::push(unsigned char value) {
     struct Node* p = new struct Node;
     p->data = value;
     p->next = top;
