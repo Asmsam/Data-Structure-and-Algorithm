@@ -7,9 +7,8 @@ struct Node {
 };
 
 class Stack {
-    struct Node* top = NULL;
-
     public:
+    struct Node* top = NULL;
     void push(unsigned char value);
     void pop();
 };
