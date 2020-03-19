@@ -11,6 +11,8 @@
 2. Sort
    - Bubble Sort
    - Selection Sort
-   - Quick Sort
-   - Heap Sort
+   - Insertion Sort
+   - Shell Sort
+   - Quick Sort (Coming Soon)
+   - Heap Sort (Coming Soon)
  
