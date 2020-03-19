@@ -9,7 +9,7 @@ int main ( int argc, char** argv ) {
         
         srand((unsigned)time(NULL));
         for ( int i = 0; i < SIZE; i++ ) {
-            a[i] = rand() /1000;
+            a[i] = rand() / 1000;
         }
         
         std::cout << "----------------------------------------\nBefore ---> ";
@@ -18,7 +18,8 @@ int main ( int argc, char** argv ) {
             std::cout << a[i] << " ";
         }
         std::cout << "\n";
-
+        
+        std::cout << "Please Input a Key ( b:Bubble / s:Selection / i:Insertion / l:Shell ) : ";
         std::cin >> cmd;
 
         if ( cmd == 'q' ) break;
