@@ -14,5 +14,6 @@
    - Insertion Sort
    - Shell Sort
    - Quick Sort (Coming Soon)
+   - Merge Sort (Coming Soon)
    - Heap Sort (Coming Soon)
  
