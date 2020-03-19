@@ -9,18 +9,18 @@ struct Node {
 class Stack {
     public:
     struct Node* top = NULL;
-    void push(unsigned char value);
-    void pop();
+    void Push(unsigned char value);
+    void Pop();
 };
 
-void Stack::push(unsigned char value) {
+void Stack::Push(unsigned char value) {
     struct Node* p = new struct Node;
     p->data = value;
     p->next = top;
     top = p;
 }
 
-void Stack::pop() {
+void Stack::Pop() {
     if( top == NULL ) cout << "Stack Underflow" << endl;
     else {
         cout << "The popped element is " << top->data << endl;
