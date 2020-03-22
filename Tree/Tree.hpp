@@ -66,7 +66,7 @@ void TreeOperations::InsertNode ( struct Node* root, unsigned char data ) {
 }
 
 void TreeOperations::DeleteNode ( struct Node* root ) {
-    if ( root == NULL ) {
+    if ( root != NULL ) {
         DeleteNode ( root->left );
         DeleteNode ( root->right );
         delete root;
