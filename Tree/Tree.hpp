@@ -30,16 +30,16 @@ void TreeOrder::PreOrder ( struct Node* root ) {
 
 void TreeOrder::InOrder ( struct Node* root ) {
     if ( root != NULL ) {
-        PreOrder ( root->left );
+        InOrder ( root->left );
         std::cout << root->data << "\n";
-        PreOrder ( root->right );
+        InOrder ( root->right );
     }
 }
 
 void TreeOrder::PostOrder ( struct Node* root ) {
     if ( root != NULL ) {
-        PreOrder ( root->left );
-        PreOrder ( root->right );
+        PostOrder ( root->left );
+        PostOrder ( root->right );
         std::cout << root->data << "\n";
     }
 }
