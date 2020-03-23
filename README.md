@@ -17,3 +17,7 @@
    - Merge Sort (Coming Soon)
    - Heap Sort (Coming Soon)
  
+3. Tree
+   - Binary Search Tree (Coming Soon)
+   - Heap Tree (Coming Soon)
+   - AVL Tree (Coming Soon)
